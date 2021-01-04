@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 .main-body {
   display:flex;
   flex-direction: column;
@@ -53,7 +57,7 @@
   margin: auto;
 }
 
-.clear {
+.clear-inactive {
   font-family: inherit;
   align-self: flex-end;
   background-color: #D0CDCD;
@@ -66,15 +70,11 @@
 .img-box{
   height: 400px;
   margin-left: 90px;
-
 }
 
 .woody {
-  /* position: absolute; */
   width: 272px;
   height: 400px;
-
-  /* object-fit: cover; */
 }
 /*
 COLORS
