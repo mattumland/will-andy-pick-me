@@ -67,6 +67,17 @@
   color:white;
 }
 
+.clear-active {
+  font-family: inherit;
+  align-self: flex-end;
+  background-color: #DE4841;
+  margin: 10px;
+  border: none;
+  padding: 1% 2%;
+  color:white;
+}
+}
+
 .img-box{
   height: 400px;
   margin-left: 90px;
