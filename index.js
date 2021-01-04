@@ -30,6 +30,10 @@ var dummyClear = document.querySelector(".clear-inactive");
 
 answerButton.addEventListener('click', function() {
   var question = getQuestion();
+  if (question === "") {
+    alert("Please ask a question");
+    reloadPage();
+  }
   var answer = getAnswer();
   changeDisplay(question, answer);
 });
