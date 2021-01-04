@@ -22,7 +22,7 @@ var answers = [
 ]
 
 var input = document.querySelector("#question");
-var answerButton = document.querySelector(".get-answer");
+var answerButton = document.querySelector(".get-answer-button");
 var eightBall = document.querySelector(".eight-ball");
 var responseBox = document.querySelector("#response-box");
 var clearButton = document.querySelector(".clear-active");
@@ -62,6 +62,8 @@ function changeDisplay(question, answer) {
   clearButton.classList.toggle("hidden");
   input.value = `Ask your question here!`;
   var newText =
-  `<p>"${question}"</p><p>${answer}</p>`
+  `<div class="answer-format">
+  <p class="question-Text">"${question}"</p><p>${answer}</p>
+  </div>`
   responseBox.innerHTML = newText;
 }
